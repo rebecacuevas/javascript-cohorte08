@@ -21,4 +21,3 @@ let suma = sumar(num1, num2);
 
 // escribir output en pantalla 
 document.write(`La suma de ${num1} y ${num2} es ${suma} <br>`);
-
