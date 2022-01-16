@@ -2,15 +2,19 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/string-ob02.css">
         <title>Idioma al revés</title>        
     </head>
     <body>
         <h1>¿Y si hablamos en clave?</h1>
-        <div>
-            <label for="word">Escribe tu palabra</label><br>
-            <input type="text" name="word" id="word"><br>
-            <button onclick="reverseWord()">De reversa</button><br>
-            <p id="new"></p>
+        <div class="container">
+            <form action="">
+                <label class="write" for="word">Escribe tu palabra</label><br>
+                <input class="input" type="text" name="word" id="word"><br>
+            </form>
+            <button class="btn" onclick="reverseWord()">Convertir</button><br>
+            <p class="result" id="new"></p>
         </div>
         <script src="/string-ob02.js"></script>
     </body>
