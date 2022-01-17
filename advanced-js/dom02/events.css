@@ -1,0 +1,9 @@
+.hide {
+  /* nos va a ocultar al elemento*/
+  display: none;
+}
+
+.error {
+  font-size: 20px;
+  color: red;
+}
